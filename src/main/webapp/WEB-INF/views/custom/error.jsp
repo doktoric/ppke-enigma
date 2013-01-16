@@ -5,9 +5,11 @@
 
 
 <div class="row-fluid">
-	<div id="main" class="span7">
-		<img src="${resources}img/grumpy.jpg" alt="">
-		<h2>Shit happens...</h2>
+	<div id="main" class="span7" >
+		<div>
+			<img src="${resources}img/grumpy.jpg" alt="">
 
+			<h2>Shit happens...</h2>
+		</div>
 	</div>
 </div>

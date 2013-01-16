@@ -1,4 +1,13 @@
 #main {
 	margin: 0 auto;
 	float: none;
+	margin-top: 40px !important;
+}
+
+
+
+#ppkelogo {
+	margin-bottom: 6px;
+	padding: 0px !important;
+	margin-top: 0px !important;
 }
