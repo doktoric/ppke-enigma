@@ -11,16 +11,19 @@
 <link href="${resource}/css/docs.css" rel="stylesheet">
 <link href="${resource}/css/prettify.css" rel="stylesheet">
 <link href="${resource}/css/jquery.pnotify.default.css" rel="stylesheet">
+<link href="${resource}/css/custom.css" rel="stylesheet">
+
 </head>
 <body data-spy="scroll" data-target=".bs-docs-sidebar"
 	data-twttr-rendered="true">
-	
 
 	<tiles:insertAttribute name="header" />
-	<tiles:insertAttribute name="body" />
+	<div class="container">
+		<div class="row" style="height: 50px !important;"></div>
+		<tiles:insertAttribute name="body" />
+
+	</div>
 	<tiles:insertAttribute name="footer" />
 
-
-	
 </body>
 </html>

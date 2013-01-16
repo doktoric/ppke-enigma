@@ -3,7 +3,6 @@
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
 <c:url value="/resources" var="resource" />
 
-<div class="container">
+
 	<div class="row"></div>
 
-</div>
